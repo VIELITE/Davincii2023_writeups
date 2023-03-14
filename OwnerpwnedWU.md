@@ -1,9 +1,10 @@
-#writeup
+**writeup**
 
 This challange focuses on the implementation constructors from older versions of solidity.The objective of this challenge is to become the smart contract's owner(me) by calling the "constructor"(initwallet) and eventually calling functions that could be called by only owner of the contract.
 see another example of this type of problem:https://ethernaut.openzeppelin.com/level/2
 
-#code review
+**code review**
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.7.6;
 
@@ -14,7 +15,7 @@ contract Challenge1 {
     address public me;
     mapping(address => uint256) balances;
 
-//constructor
+//constructor \\//
     function initWallet() public {
         me = msg.sender;
     }
@@ -41,8 +42,8 @@ contract Challenge1 {
 
 }
 
-#implementation
+**implementation**
 using remix we deploy the contract at the address of the challange
 * call initwallet()
 * call migrateTo() with our wallet address as input
-* and finally call the withdraw function with a uint for amount . Thats it.we get the flag and some eth(DVC tokens) to follow xd.
+* and finally call the withdraw function with a uint for amount . Thats it.we get the flag and some eth(DVC tokens) to follow .ez.

@@ -20,7 +20,8 @@ contract Challenge1 {
     address public me;
     mapping(address => uint256) balances;
 
-//constructor \\//
+    //constructor
+    
     function initWallet() public {
         me = msg.sender;
     }
@@ -34,12 +35,12 @@ contract Challenge1 {
         payable(msg.sender).transfer(amount);
         balances[msg.sender] -= amount;
     }
-//If there is an emergency, i'm protected \o/
+     //If there is an emergency, i'm protected \o/
     function migrateTo(address to) public {
         require(msg.sender == me, "Only me can withdraw all the funds");
         payable(to).transfer(address(this).balance);
     }
-//getBalance returns the balance of the contract, it is always nice to check my fortune
+     //getBalance returns the balance of the contract, it is always nice to check my fortune
     function getBalance() public view returns (uint)
     {
         return (address(this).balance);

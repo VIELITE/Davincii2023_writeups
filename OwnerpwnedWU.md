@@ -1,3 +1,8 @@
+**intro**
+
+challange was worth 337pts with 33 solves,And we was top 3 for first solves
+
+
 **writeup**
 
 This challange focuses on the implementation constructors from older versions of solidity.The objective of this challenge is to become the smart contract's owner(me) by calling the "constructor"(initwallet) and eventually calling functions that could be called by only owner of the contract.
@@ -43,6 +48,7 @@ contract Challenge1 {
 }
 
 **implementation**
+
 using remix we deploy the contract at the address of the challange
 * call initwallet()
 * call migrateTo() with our wallet address as input

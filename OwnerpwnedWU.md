@@ -5,7 +5,7 @@ challange was worth 337pts with 33 solves,And we was top 3 for first solves
 
 **writeup**
 
-This challange focuses on the implementation constructors from older versions of solidity.The objective of this challenge is to become the smart contract's owner(me) by calling the "constructor"(initwallet) and eventually calling functions that could be called by only owner of the contract.
+This challange focuses on the implementation constructors from older versions of solidity.The objective of this challenge is to become the smart contract's owner`me` by calling the "constructor"`initwallet` and eventually calling functions that could be called by only owner of the contract.
 see another example of this type of problem:https://ethernaut.openzeppelin.com/level/2
 
 **code review**

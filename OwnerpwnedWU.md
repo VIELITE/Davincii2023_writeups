@@ -1,4 +1,4 @@
-**intro**
+# Davinci ctf 2023 : ownerpwned[337pts]
 
 challange was worth 337pts with 33 solves,And we was top 3 for first solves
 
@@ -9,6 +9,8 @@ This challange focuses on the implementation constructors from older versions of
 see another example of this type of problem:https://ethernaut.openzeppelin.com/level/2
 
 **code review**
+
+```solidity
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.7.6;
@@ -46,8 +48,7 @@ contract Challenge1 {
         return (address(this).balance);
     }
 
-}
-
+```
 **implementation**
 
 using remix we deploy the contract at the address of the challange

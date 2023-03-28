@@ -1,3 +1,3 @@
-# CTF WRITEUPS
+# CTF WRITEUPS FOR DAVINCI-CTF 2023
 
-writeups on CTF(capture the flag ) Blockchain challanges that i solved from different ctfs.Have fun.
+writeups on CTF(capture the flag ) Blockchain challanges that i and my team solved from davinci ctf.Have fun.

@@ -1,6 +1,6 @@
 # Davinci ctf 2023 : ownerpwned[337pts]
 
-challange was worth 337pts with 33 solves,And we was top 3 for first solves
+challange was worth 337pts with 33 solves,And I was top 3 first solver
 
 
 **writeup**

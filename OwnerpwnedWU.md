@@ -54,4 +54,4 @@ contract Challenge1 {
 using remix we deploy the contract at the address of the challange
 * call `initwallet()`
 * call `migrateTo()` with our wallet address as input
-* and finally call the withdraw function with a uint for amount . Thats it.we get the flag and some eth(DVC tokens) to follow .ez.
+* and finally call the withdraw function with a uint for amount . Thats it,we get the flag and some ctf eth(DVC tokens) to follow .ez.
